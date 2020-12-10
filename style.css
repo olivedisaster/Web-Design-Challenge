@@ -82,3 +82,9 @@ img {
 img {
   max-width: 100%;
 }
+
+.table{
+  text-align:center;
+  background-color: white;
+  z-index:1;
+}
