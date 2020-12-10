@@ -1,11 +1,84 @@
-.box {
-    height: 400px;
-    padding: 20px;
-    color: #fff;
-    background: deepskyblue;
-  }
-  
-  .margin-top-80 {
-    margin-top: 80px;
-  }
-  
+h1 {
+  /* Change the size of your font to 60 pixels high. */
+  font-size: 22px;
+  /* This will color the heading font white. */
+  color: white;
+  /* Align the text to the center of its enclosing element (e.g. div). */
+  text-align: left;
+  /* Underline the text. */
+  font-weight: bold;
+  /* The background of the heading element will now be black. */
+  background-color: rgb(4, 167, 167);
+}
+
+h2 {
+  /* Change the size of your font to 60 pixels high. */
+  font-size: 24px;
+  /* This will color the heading font white. */
+  color: rgb(4, 167, 167);
+  /* Align the text to the center of its enclosing element (e.g. div). */
+  text-align: left;
+  /* Underline the text. */
+  font-weight: bold;
+}
+
+h3 {
+  /* Change the size of your font to 60 pixels high. */
+  font-size: 16px;
+  /* This will color the heading font white. */
+  color: rgb(4, 167, 167);
+  /* Align the text to the center of its enclosing element (e.g. div). */
+  text-align: center;
+  /* Underline the text. */
+  font-weight: bold;
+}
+
+p{
+    /* This will color the heading font white. */
+    color: gray;
+    /* Align the text to the center of its enclosing element (e.g. div). */
+    text-align: left;
+}
+
+body {
+  width: 100%;
+  min-height:100%;
+  background-color: lightgray;
+}
+
+img {
+  /* 
+  Center a block element in the middle of its enclosing tag.
+  When you use the "auto" rule on both left and right margins, 
+  your browser will do the math necessary to center a block element.
+  */
+  margin-left: auto;
+  margin-right: 15%;
+  /* Block display (more on this later) */
+  display: block;
+}
+
+.box-1 {
+  background-color: white;
+}
+
+.box-2 {
+  background-color: white ;
+}
+
+.box-3 {
+  background-color: white;
+}
+
+.box-4 {
+  background-color: white;
+}
+
+.divbdy{
+  background-color: white;
+  z-index:1;
+}
+
+img {
+  max-width: 100%;
+}
