@@ -9,6 +9,7 @@ h1 {
   font-weight: bold;
   /* The background of the heading element will now be black. */
   background-color: rgb(4, 167, 167);
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h2 {
@@ -20,6 +21,7 @@ h2 {
   text-align: left;
   /* Underline the text. */
   font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h3 {
@@ -31,6 +33,7 @@ h3 {
   text-align: center;
   /* Underline the text. */
   font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 p{
@@ -43,40 +46,7 @@ p{
 body {
   width: 100%;
   min-height:100%;
-  background-color: lightgray;
-}
-
-img {
-  /* 
-  Center a block element in the middle of its enclosing tag.
-  When you use the "auto" rule on both left and right margins, 
-  your browser will do the math necessary to center a block element.
-  */
-  margin-left: auto;
-  margin-right: 15%;
-  /* Block display (more on this later) */
-  display: block;
-}
-
-.box-1 {
-  background-color: white;
-}
-
-.box-2 {
-  background-color: white ;
-}
-
-.box-3 {
-  background-color: white;
-}
-
-.box-4 {
-  background-color: white;
-}
-
-.divbdy{
-  background-color: white;
-  z-index:1;
+  background-color:rgb(231, 231, 231);
 }
 
 img {
@@ -87,4 +57,30 @@ img {
   text-align:center;
   background-color: white;
   z-index:1;
+}
+
+.home a{
+  width: 110px;
+  background: lightseagreen;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  display: block;
+  padding: 14px;
+  margin: 0px 0px 0px 40px;
+}
+
+.navbar{
+  position: absolute;
+  right: 25px;
+}
+
+.navbar a{
+background-color:rgb(231, 231, 231);
+}
+
+.divbdy{
+  background-color: white;
 }
