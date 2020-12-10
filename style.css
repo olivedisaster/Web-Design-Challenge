@@ -59,6 +59,11 @@ img {
   z-index:1;
 }
 
+.home{
+  background-color: white;
+  z-index:2;
+}
+
 .home a{
   width: 110px;
   background: lightseagreen;
@@ -83,4 +88,17 @@ background-color:rgb(231, 231, 231);
 
 .divbdy{
   background-color: white;
+}
+
+.divbtm {
+  width:100%;
+  /* position:absolute; */
+  bottom:0;
+  background-color: rgb(4, 167, 167);
+  z-index:0;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin: 0px;
 }
