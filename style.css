@@ -78,7 +78,7 @@ img {
 }
 
 .navbar{
-  position: absolute;
+  position: fixed;
   right: 25px;
 }
 
@@ -88,17 +88,5 @@ background-color:rgb(231, 231, 231);
 
 .divbdy{
   background-color: white;
-}
 
-.divbtm {
-  width:100%;
-  /* position:absolute; */
-  bottom:0;
-  background-color: rgb(4, 167, 167);
-  z-index:0;
-  font-size: 12px;
-  color: white;
-  text-align: center;
-  padding: 5px;
-  margin: 0px;
 }
